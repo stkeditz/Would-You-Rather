@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Association Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🧠 Word Association Game</h1>
+
+    <div class="game-box">
+        <h2 id="currentWord">Starting Word: Apple 🍎</h2>
+
+        <input type="text" id="wordInput" placeholder="Enter related word">
+        <button onclick="submitWord()">Submit</button>
+
+        <p id="message"></p>
+
+        <h3>Score : <span id="score">0</span></h3>
+
+        <h3>Used Words</h3>
+        <ul id="usedWords"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
